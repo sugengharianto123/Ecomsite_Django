@@ -1,0 +1,250 @@
+/* Basic resets */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.container {
+    padding: 20px;
+}
+
+.navbar {
+    border-bottom: 2px solid #e5e5e5;
+    margin-bottom: 20px;
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+    color: #333 !important;
+}
+
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:hover .nav-link {
+    color: #007bff !important;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+.btn-warning {
+    color: #fff;
+    background-color: #ff9800;
+    border-color: #ff9800;
+}
+
+/* Card styles */
+.card {
+    border: none;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #333;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #007bff;
+    margin-top: 5px;
+}
+
+.card img {
+    border-radius: 4px 4px 0 0;
+}
+
+.card-body {
+    padding: 15px;
+    text-align: center;
+}
+
+.atc {
+    margin-top: 10px;
+    width: 100%;
+}
+
+/* Pagination styles */
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.page-item .page-link {
+    color: #007bff;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 12px;
+    transition: background-color 0.2s;
+}
+
+.page-item.active .page-link {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.page-item .page-link:hover {
+    background-color: #e2e6ea;
+}
+
+/* Search bar */
+form.card {
+    border: 2px solid #007bff;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+input[type="search"] {
+    border: none;
+    padding: 8px;
+    outline: none;
+}
+
+button.btn-success {
+    background-color: #007bff;
+    border: none;
+    border-radius: 0 8px 8px 0;
+    padding: 8px 12px;
+}
+
+/* Cart Popover */
+#cart {
+    position: relative;
+}
+
+.popover {
+    max-width: 300px;
+}
+
+.popover-header {
+    font-weight: bold;
+}
+
+#checkout {
+    margin-top: 10px;
+    width: 100%;
+}
+
+
+/* Mengatur margin dan padding dasar untuk keseluruhan body */
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* Mengatur styling untuk container utama */
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Styling untuk list item pada cart */
+#item_list {
+    margin-top: 20px;
+}
+
+.list-group-item {
+    font-size: 16px;
+    padding: 10px 15px;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.list-group-item:last-child {
+    font-weight: bold;
+    background-color: #e9ecef;
+}
+
+.badge-warning {
+    background-color: #ffc107;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 12px;
+}
+
+/* Styling untuk form */
+.form-row {
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    font-weight: bold;
+}
+
+.form-control {
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    border: 1px solid #ced4da;
+}
+
+/* Styling untuk tombol submit */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+/* Styling untuk input total harga */
+#total {
+    font-weight: bold;
+    background-color: #e9ecef;
+    border: none;
+    color: #333;
+}
+
+/* Mengatur jarak antar elemen form */
+.form-group {
+    margin-bottom: 15px;
+}
+
+/* Responsive styling */
+@media (max-width: 576px) {
+    .container {
+        padding: 15px;
+    }
+
+    .form-row {
+        flex-direction: column;
+    }
+
+    .btn-primary {
+        font-size: 14px;
+        padding: 8px 15px;
+    }
+}

@@ -1,0 +1,54 @@
+/* Atur container utama */
+.container {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Gaya gambar produk */
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+/* Heading judul produk */
+.product-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Harga dan harga diskon */
+.price,
+.discount-price {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.price {
+    color: #d9534f;
+    text-decoration: line-through;
+}
+
+.discount-price {
+    color: #5cb85c;
+    font-weight: bold;
+}
+
+/* Deskripsi produk */
+.description {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #666;
+    margin-top: 15px;
+}
+
+/* Setiap row pada detail produk */
+.col-md-6>.row {
+    margin-bottom: 15px;
+}
